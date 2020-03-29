@@ -1,0 +1,31 @@
+{
+  "targets": [
+    {
+      "name": "Adidas Originals Drop",
+      "url": "https://www.adidas.co.in/yeezy",
+      "pollIntervalMs": 3000,
+      "selectors": {
+        "title": "h1.product-title",
+        "buyButton": "button[data-auto-id='add-to-bag']",
+        "sizeDropdown": "select.size-dropdown",
+        "price": "span.gl-price-item"
+      }
+    },
+    {
+      "name": "Nike SNKRS Launch",
+      "url": "https://www.nike.com/in/launch",
+      "pollIntervalMs": 2500,
+      "selectors": {
+        "title": ".product-card__title",
+        "buyButton": "button[data-qa='feed-buy-cta']",
+        "countdown": ".countdown-timer"
+      }
+    }
+  ],
+  "targetSizes": [
+    "UK 8",
+    "UK 8.5",
+    "UK 9",
+    "UK 9.5"
+  ]
+}
